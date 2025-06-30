@@ -36,6 +36,9 @@ FROM python:3.8-slim-buster
 # Set working directory inside the container
 WORKDIR /app
 
+
+
+
 # Copy all project files to the container
 COPY . /app
 

@@ -11,6 +11,9 @@ FROM python:3.8-slim-buster
 # Set working directory
 WORKDIR /app
 
+
+
+
 # Copy all project files
 COPY . /app
 
